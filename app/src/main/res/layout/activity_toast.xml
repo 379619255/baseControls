@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ToastActivity">
+
+    <Button
+        android:id="@+id/no_message_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无图片的toast显示底部/中间" />
+
+
+    <Button
+        android:id="@+id/error_message_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="错误的toast" />
+
+    <Button
+        android:id="@+id/success_message_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成功的toast" />
+
+    <Button
+        android:id="@+id/info_message_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="信息toast" />
+
+    <Button
+        android:id="@+id/warning_message_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="信息toast" />
+
+    <Button
+        android:id="@+id/icon_message_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义图片toast" />
+    <Button
+        android:id="@+id/show_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度加载框出现" />
+    <Button
+        android:id="@+id/no_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中间提示" />
+</LinearLayout>
